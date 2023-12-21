@@ -4,8 +4,8 @@ import PostList from './components/PostList';
 import PostContent from './components/PostContent';
 
 function App() {
+ 
   return (
-    
       <div>
         <nav className= 'navbar bg-body-tertiary'>
         <div className= 'container-fluid'>

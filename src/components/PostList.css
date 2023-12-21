@@ -1,0 +1,56 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.list-group-item{
+    background: rgb(131,58,180);
+    background: linear-gradient(0deg, rgb(208, 177, 229) 0%, rgb(245, 169, 169) 50%, rgb(247, 195, 123) 100%);
+    width: 100%;
+}
+
+.random-name{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-right: 4px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.day{
+    display: inline-block;
+    font-size: 10px;
+    color: rgb(91, 90, 90);
+}
+
+.post-title{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: inline;
+}
+
+.post-content{
+    margin-bottom: 0;
+}
+
+.comment-icon,.repost-icon, .heart-icon, .download-icon{
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.additional-icons{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.post-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+
+
+
